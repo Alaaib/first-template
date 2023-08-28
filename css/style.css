@@ -1,0 +1,326 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;}
+/* //////////////////////////////////////////////HEADER///////////////////////////////////////// */
+.header-nav{ height: 60px;}
+.img1{ height: 140%;
+margin-left: 150px;
+margin-top: -20px;}
+.ul1 li{
+display: inline-block;
+margin-right: 30px;
+margin-top: 20px;
+font-size: smaller;
+}
+.ul1{list-style: none; float:right;} 
+.DIV30:before{
+content: "";
+width:0;
+bottom: 0;
+LEFT: 0;
+margin-left: 10px;
+}
+.DIV30:hover:before{width: 70px;}
+.vline{left: 0; margin-left: -25%;}
+.header-nav:hover .vline{height: 27px;}
+.div20 a{color:  rgb(188, 250, 73); margin-top: 25PX;}
+.hline{ width: 47px; background-color:rgb(188, 250, 73); margin-top: 47px;}
+.div20{ margin-top: -5px; margin-left: 250px; font-size: 20PX;}
+.div20:hover{visibility: visible;}
+.header-logo{ margin-left: 2%;}
+.logo-title{color:  rgb(169, 255, 9); font-size:2.3rem; margin-top: 5PX;}
+/* //////////////////////////////////////////HOME/////////////////////////////////////////////////////////// */
+body{background-color: whitesmoke;}
+.home{background-image: url(../images/IMG_6348.JPG); background-size: cover;}
+.overlay{background-color:rgba(47, 145, 158, 0.7);}
+.home-content{width: 50%; height: 120px; top: 50%; left: 50%;
+transform: translate(-50%,-50%);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+letter-spacing: 0.1px; line-height: 50px;}
+.home-title1{
+font-size: 55px; text-transform: uppercase; line-height: 50%;
+margin: 15px 0px;}
+.home-p1{font-size: 25px; letter-spacing: 1px;
+margin: 15px 0px;}
+ .btn{
+padding: 8px 0px;
+font-size:  18px;
+background-color:rgba(47, 145, 158, 0.7); ;
+border: 1PX solid white;
+line-height: normal;
+}
+.btn-learn{
+margin-left: 10px;
+color:rgb(255, 255, 255); 
+}
+.btn:hover{
+opacity: 0.7;
+cursor: pointer;
+}
+  
+/* /////////////////////////////////////////hours///////////////////////////////////////////////////// */
+.hline3{margin-left: 45%;}
+.hours-container{margin-left: 15% ;margin-top: 7.5%;}
+.hours-item{
+height: 60%;
+padding: 18px 14PX;
+margin-top: 7.5%;
+border: 1px solid rgb(134, 197, 16);
+border-bottom: 0PX;}
+.hours-item:hover{
+color:  rgb(255, 255, 255);}
+.hours-info-title{
+    background-color:rgba(67, 68, 64, 0.384);
+    margin-top: 30px;}
+.div100{
+border: 1px solid rgb(228, 157, 128);
+border-top:0px ; border-top: 0PX;}
+.DIV2{
+margin-right:5% ;
+margin-left: 5%;
+border: 1px solid rgb(124, 207, 218);}
+.hours-item:after{
+content: "";
+width:0;
+left: 0;}
+.hours-item a{
+height: 45px; color:rgb(65, 100, 0);}
+/* ////////////////////////////////////////view///////////////////////////////////////////////////////// */
+.view{border-top-left-radius: 10px;border-top-right-radius: 10px;}
+.view-container{margin-left: 15%;}
+.view-info{height: 30%; margin-top: 5%;
+background-image: url(../images/bumper-cars-4390958_640.jpg);
+background-size:cover;}
+.view-info2{background-image: url(../images/circus-4721178_640.jpg); background-size:cover;}
+.view-info3{background-image: url(../images/ferris-wheel-7439636_640.jpg);background-size:cover;}
+.view-info4{background-image: url(../images/theme-park-8065415_1280.jpg );background-size:cover;}
+.view-info5{background-image: url(../images/dolphins-1170347_640.jpg);background-size:cover;}
+.view-info6{background-image: url(../images/IMG_6348.JPG);background-size:cover;}
+.div3{margin-left: 5%; margin-right: 5%;}
+.div5{margin:  5%;}
+.DIV4, .DIV6{margin: 5% 0PX;} 
+.VIEW-OVELAY{width: 110%; height: 110%; background-color:rgb(67, 68, 64); margin-left: -13px; margin: -10px 0 0 -13;}
+.view-info:hover .VIEW-OVELAY{transition: 4s;} 
+.div41, .div42, .div43{opacity: 0; color: white;}
+.div41{height: 0; bottom: 60%; transition: 1.25s;}
+.div42{height: 0; transition: 1.50s;bottom: 50%; }
+.div43{transition: 1.75s;bottom: 40%; transition:  1.75s; }
+.view-info:hover .div41, .view-info:hover .div42, .view-info:hover .div43{height: 30px; opacity: 1;} 
+.div43 a{color: rgb(134, 197, 16)}
+        /* ////////////////////////////////////////GROUPS//////////////////////////////////// */
+.space-container{margin: auto;}
+.space-info{
+height: 36%;
+padding: 18px 14PX;
+border: 1px solid rgb(5, 130, 146); }
+.space-info:before{
+content: "";
+width:0;
+height:0;
+LEFT: 0;}
+.space-info:hover:before{
+background-color:rgba(67, 68, 64, 0.5);}
+.div45{width: 10%;}
+.div46{width: 80%; height: 82%; margin:5px 0 0 35px; text-align: left; font-size: 15px;}
+.div7{margin: 0PX 5%;}
+.div9{margin:  5%;}
+.div7, .div9{border: 1px solid rgb(255, 178, 148);}
+.DIV8, .DIV10{margin: 5% 0PX;}
+/* /////////////////////////////////////////////////section4///////////////////////////////////////////////////////////// */
+.why{color: rgb(0, 0, 0);}
+.why-container{
+height: 80%;
+margin: 0px 15%;
+padding-top: 8%;}
+.why-img{
+    width: 250px;
+    height: 180px;
+    margin:14% 10% 0 65%;
+    border: 5px solid  rgb(134, 197, 16);}
+.H2-WHY{ color: rgb(134, 197, 16);}
+.no a{color: white; text-transform: lowercase;}
+.why-img2{
+margin-left:66.5% ;
+margin-top:11% ;}
+.why-img3{
+    margin-left:62% ;
+    margin-top:12.5% ;}
+.pollets{
+height: 10px;
+width: 10px;
+background-color: rgba(134, 197, 16, 0.4);
+margin: 15px;}
+.div50{padding-left: 10px;}
+.pollet1{margin-left: 45px;}
+/* //////////////////////////////////////////////////////////statistics////////////////////////////////////////////////////////////////// */
+.statistics{
+    background-image:url(../images/IMG_6348.JPG);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;}
+.statistics-overlay{background-color:rgba(47, 145, 158, 0.801); }
+.statistics-title{height: 200px; padding: 6% 0;}
+.statistics-content{margin-top: 27%; margin-left: 15%;}
+.statistics-content1{margin: 0 50px;color: rgb(255, 255, 255);}
+/* ///////////////////////////////////////plan///////////////////////////////////////// */
+.plan-container{
+    height: 80%;
+    color:  rgb(105, 105, 105);
+    margin-left: 15%;
+    margin-top: 10%;}
+.plan-info{width: 25%; margin-bottom: 5%;}
+.div11{margin-left: 12.5%; margin-right: 12.5%;}
+.div40{ width: 105px; height: 105px; border: 2px solid  rgb(134, 197, 16);
+  margin-left: 65px; margin-bottom: 200px; transition: 3s;}   
+.div401{ border-color:rgb(124, 207, 218);}
+.price{font-weight: bolder; margin-top: 20px;}
+.plan-overlay{height:0; opacity: 1; transition: 0.5s;}
+.plan-overlay:hover{transition: 0.5s; opacity: 1;}
+.plan-info:hover .div40{ transition: 3s; border-color: white;}
+.plan-info:hover .plan-overlay{transition: 0.5s; opacity: 1;}
+.BTN-PLAN1, .BTN-PLAN2, .BTN-PLAN3{padding: 5px 10px; border: 1px solid white; border-radius: 5px; width:78.2969px ;}
+     /* //////////////////////////////////////////////////////////offers////////////////////////////////////////////////////////////////// */
+.offers{ background-image:url(../images/IMG_6343.JPG);
+background-repeat: no-repeat ;
+background-size: cover;
+background-attachment: fixed;}
+.offers-overlay{
+background-color:rgba(47, 145, 158, 0.801); ;}
+.offers-title{
+height: 200px;
+padding: 6% 0;}
+.hline3{ margin: auto;}
+.offers-img{
+height: 100px;
+border: 2px solid ;
+border-left-color:rgb(134, 197, 16);
+border-bottom-color:rgb(134, 197, 16);
+border-top-color: white;
+border-right-color: white;
+z-index: 5;}
+.offers-content{margin-top: 30%; margin-left: 30%;}
+.o-h3, .o-h5{ margin-left: 120px}
+.no{ width: 35%; height: 400px; margin-top: 25%; margin-left: -5%;}
+.no-2{margin-left: 35%;}
+.parent{margin-left: 20%;}
+/* ///////////////////////////////////////////////////////services///////////////////////////////////// */
+.services{padding: 25px 0px;}
+.services-container{
+    height: 80%;
+    margin: auto;
+    padding-top: 10%;}
+.services-info{border: 1px solid rgb(134, 197, 16);}
+.services-overlay{ background-color :rgba(67, 68, 64,0.5);transition: 2s;}
+.services-overlay a{
+    width: 40px;
+    height: 40px;
+    display: block;
+visibility: hidden;
+margin-left: auto;}
+.services-overlay a i{ line-height: 45px;}
+.services-overlay:hover{opacity: 0.8;}
+.services-overlay:hover a{visibility: visible;}
+.services-overlay  .twitter{border-top-right-radius: 10px;}
+.services-overlay  .insta{border-bottom-left-radius: 10px;}
+.div12{margin: 0PX 5%;}
+            /* /////////////////////////////////////////news///////////////////////////////////////////////////// */
+.news-container{height: 100vh; margin-left: 15%;}
+.news-info{
+z-index: 0;
+line-height: normal;
+margin: auto;
+border: 2px solid black;
+border-left: 0;
+border-color:  rgb(134, 197, 16);
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+.clearfix{ clear: both;}
+.div13{margin: 0PX 5%;}
+.news-overlay:hover{transition: 1s; opacity: 1;}
+.news-overlay{ top: 0; opacity: 1; transition: 1s;height: 0;width: 100%;position: absolute;z-index: -1;
+border-top-right-radius: 10px; border-bottom-right-radius: 10px;background-color: rgb(134, 197, 16);}
+.news-info:hover .news-overlay{height:100% ;transition: 1s;}
+.news-info:hover{border-color:  rgb(67, 68, 64);}
+.news-info a{color: inherit;}
+        /* ////////////////////////////////////////////////footer///////////////////////////////////////////// */
+.footer{height: 54vh;}
+.footer-content{
+width: 90%;
+height: 90%;
+margin:0 5% 0 5% ;
+font-size: 15px;
+padding-top: 20px;}
+.footer-img{margin:auto; border: 2px solid rgba(255, 255, 255, 0.158);}
+.footer-content a{color:  rgb(215, 250, 255);}
+.footer-content i{font-size: large;}
+.PURPLE{ font-size: 300PX; margin-left:5% ;margin-top: -5%; color: rgba(255, 255, 255, 0.096); }
+            /* //////////////simillars///////////////////////////////////////////////// */
+.hours, .view,  .space,.why, .plan, .home, .statistics, .offers, .services, .news{width: 100%; height: 100vh;}
+.header-nav, .DIV30, .div20, .hours-item:hover a, .home, .hours, .hours-item, .view, .view-info, .space, .space-info, .why, .statistics, .plan-info, .offers, .no, .services, .services-info, .news, .news-info, .footer{position: relative;}
+.header-nav, .hours-content,  .div50, .statistics-content, .plan-container, .parent{ overflow: auto;}
+ body{overflow-x: hidden;}
+.header-nav, .img1, .overlay, .hours, .hours-item:hover:after, .view, .div41, .div42, .div43, .view-info:hover   .view-info:hover .div42, .div43, .view-info:hover .div43, .space, .space-info:hover:before, .why, .statistics-overlay, .statistics-title, .plan,  .plan-overlay, .plan-overlay401,  .plan-overlay:hover,   .plan-info:hover .plan-overlay, .plan-info402:hover .plan-overlay402, .div11:hover .plan-overlay401, .offers-overlay, .offers-title, .services-overlay,  .news-info:hover .news-overlay,  .news-info2:hover .news-overlay2, .news-overlay3, .news-info3:hover .news-overlay3 , .footer, .PURPLE{width: 100%;} 
+.hours-container, .view-container, .space-container, .why-container, .plan-container, .services-container, .news-container{width: 70%;}
+.hours-item, .view-info, .space-info, .services-info,     .news-info{width: 30%;}
+.DIV30, .div20, .hline3{width:90px}
+.img1, .btn, .offers-img{width: 100px}
+.vline, .header-nav:hover .vline{width: 1px}
+.hours-item a, .div2 a, .div100 a{width:45px; height: 45px}
+.overlay, .hours-item:hover:after, .space-info:hover:before, .statistics-overlay, .plan-overlay:hover, .plan-info:hover .plan-overlay, .plan-info402:hover .plan-overlay402, .div11:hover .plan-overlay401, .offers-overlay, .services-overlay, .news-info2:hover .news-overlay2, .news-info3:hover .news-overlay3{width: 100%; height: 100%}
+.view-container {height: 100%;}
+/* ////////////////borders/////////////////////////// */
+.DIV30:hover:before, .btn, .hours-item, .hours-item:after, .view-info, .space-info, .space-info:hover:before, .why-container, .services-info, .services-overlay{border-radius: 10px;}
+.pollets, .circle, .div40, .offers-img{border-radius: 50%;}
+.header-nav, .home, .overlay, .space,  .news{border-bottom-left-radius: 10px; border-bottom-right-radius: 10px}
+.news-overlay, .news-overlay2, .news-overlay3{border-top-right-radius: 10px; border-bottom-right-radius: 10px;}   .space-info, .services-info, .services-overlay, .news-info{border-bottom: 0px;}
+.DIV2, .space-info,  .why-container, .services-info, .services-overlay{border-right: 0px;}   
+/* ////////////colors/////////// */
+.ul1 li a, .logo-title2,  .home-p1, .home-title1, .plan-info:hover .div40, .div41, div42, .div43,  .plan-info:hover .div401,     .plan-info:hover .div402, .o-h3, .no, .o-h5, .btn, .news-info2:hover .news-overlay2, .news-info3:hover .news-overlay3{color: white;}    
+.DIV30:hover:before, .vline{background-color: white;}     
+.div46{ background-color:rgba(148, 243, 255, 0.253);}
+.div9 .div46, .div7 .div46 {background-color:rgba(255, 178, 148, 0.356); }
+.why-img2, .div12, .news-info2{ border-color:  rgb(124, 207, 218); }
+.btn-learn , .pollets:hover,  .plan-overlay, .BTN-PLAN1, .BTN-PLAN2, .BTN-PLAN3, .news-overlay, .services-overlay a{background-color: rgb(134, 197, 16);}          
+.header-nav, .statistics-title, .plan-overlay401, .BTN-PLAN2,.offers-title, .services-overlay2 a, .news-overlay2, .footer{background-color:  rgb(124, 207, 218);}   
+
+.hline3, .hours-item:hover:after{background-color:rgb(67, 68, 64);}
+.statistics-title-h2, .offers-title-h2, .services-overlay a, .news-info:hover{color: rgb(67, 68, 64);}
+.hours-item, .news-info{color: rgb(65, 100, 0);}
+.plan-overlay402, .BTN-PLAN3, .services-overlay3 a, .news-overlay3{background-color:rgb(228, 157, 128);}
+.why-img3, .div402, .news-info3, .services-info3{border-color: rgb(228, 157, 128);}   
+.div100, .div100 a, .news-info3{color: rgb(143, 40, 0);}  
+.DIV2, .div2 a, .news-info2{color: rgb(5, 130, 146); ;} 
+/* /////position:fixed//////////////////  */
+.header-nav, .div20, .header-logo{position: fixed;}
+.DIV30:before, .vline, .div20 a,  .overlay, .home-content, .hours-container, .hours-item:after, .div41, .div42, .div43, .VIEW-OVELAY, .space-info:before, .div45, div46, .why-container,  .GROUPS-icon, .why-img, .statistics-overlay, .statistics-title, .statistics-content, .div40, .plan-overlay, .plan-overlay401,  .plan-overlay402, .offers-overlay, .offers-title, .offers-img, .offers-content, .no, services-items, .services-overlay, .news-overlay, .news-overlay2, .news-overlay3,  .footer-content, .PURPLE{position: absolute;}        
+/* ////////////////top=0///////////////// */
+.header-nav, .vline, .header-logo, .overlay, .hours-item:after, .space-info:before, .plan-overlay,  .plan-overlay401,  .plan-overlay402, .services-overlay{top: 0;}   
+/* ///////////////////z-index///////////////////// */
+.header-nav, .div20, .header-logo{z-index: 100;}
+.vline, .hours-item, .space-info:hover:before, .statistics-title, .statistics-content, .plan-info, .offers-title, .services-overlay{z-index: 4;}
+.div41, .div42, .div43, .offers-content, .no{z-index: 4;}  
+.VIEW-OVELAY, .statistics-overlay, .statistics-content, .offers-overlay,  .footer-content{z-index: 2;}  
+.DIV30:hover:before, .hours-item:after,  .plan-overlay,  .plan-overlay401,  .plan-overlay402, .news-overlay, .news-overlay2, .news-overlay3{z-index: -1;}  
+/* ///////////////text-align///////////////// */
+.header-nav, .home-content, .hours-title, .hours-item, .view-container, .view-info, .div41, .div42, .div43, .space-container, .space-info, .statistics-title-h2, .statistics-content1, .plan-info,  .plan-title,  .offers-title-h2, .services-container, services-items, .news-title,  .footer-content{text-align: center;}
+/* //////////font-size & text/////////////////// */ */
+.footer-content a{font-size: small;}
+.statistics-content1, .services-overlay a{font-size: x-large;}
+.home-p1, .hours-item i, .div43, .price{font-size: xx-large;} 
+.ul1 li, .div20{font-family: 'Courier New', Courier, monospace;} 
+.logo-title, body, .PURPLE{font-family: cursive;}
+.ul1 li a, .div20 a, .div43 a, .footer-content a{text-decoration: none;} 
+       /* ////////////////float///////////////// */
+.img1, .hours-item, .view-info, .space-info, .pollets, .statistics-content1, .plan-info, .no, .no-2, .services-info,    .news-info{ float: left;}     
+.DIV30:before, .DIV30:hover:before, .hline, .hline3{height: 2px;}
+.vline, .hours-item:after, .div43{height: 0;} 
+.hours-container, .space-container, .PURPLE{height: 70%;} 
+.hours-item:after, .VIEW-OVELAY, .services-overlay, .space-info:before{opacity: 0;}
+.hours-item:hover:after, .space-info:hover:before{opacity: 0.5;}
+.view-info:hover .VIEW-OVELAY, .offers-overlay{opacity:0.8}    
+.DIV30:before, .DIV30:hover:before{transition: 1s;}
+.header-nav:hover .vline, .div20:hover, .hours-item:hover:after, .space-info:hover:before{transition: 0.5s;}
+
+
